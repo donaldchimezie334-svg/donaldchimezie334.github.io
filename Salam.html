@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Eziefula & Uwakwe Associates</title>
+<style>
+/* ===== RESET ===== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ===== BODY ===== */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #f5f5f5;
+    line-height: 1.7;
+    background: linear-gradient(135deg, #0f172a, #111827);
+    padding: 40px 20px;
+}
+
+/* ===== BACKGROUND IMAGE ===== */
+.bg {
+    position: fixed;
+    inset: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.45);
+}
+
+/* ===== HEADER ===== */
+header {
+    text-align: center;
+    padding: 60px 20px;
+    background: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(6px);
+    border-radius: 12px;
+    margin-bottom: 40px;
+    box-shadow: 0 0 40px rgba(0,0,0,0.6);
+}
+
+header h1 {
+    font-size: 2.5rem;
+    color: #d4af37; /* Gold */
+    letter-spacing: 2px;
+    text-shadow: 0 1px 3px rgba(0,0,0,0.7);
+}
+
+header p {
+    margin-top: 15px;
+    font-size: 1.1rem;
+    color: #e5e7eb;
+    text-shadow: 0 1px 2px rgba(0,0,0,0.6);
+}
+
+
+#toggle-dark {
+    margin-left: 10px;
+}
+
+/* ===== SECTIONS ===== */
+section {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 35px;
+    margin-bottom: 30px;
+    border-radius: 15px;
+    backdrop-filter: blur(10px);
+    transition: 0.4s ease;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+}
+
+section:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 40px rgba(0,0,0,0.7);
+}
+
+/* ===== HEADINGS ===== */
+h2 {
+    color: #d4af37;
+    margin-bottom: 20px;
+    font-size: 1.6rem;
+    border-left: 4px solid #d4af37;
+    padding-left: 10px;
+}
+
+h4 {
+    margin-top: 15px;
+    color: #facc15;
+}
+
+/* ===== LISTS ===== */
+ul li,
+ol li {
+    margin-bottom: 10px;
+    padding-left: 5px;
+}
+
+/* ===== STRONG TEXT ===== */
+strong {
+    color: #facc15;
+}
+
+/* ===== BLOCKQUOTE ===== */
+blockquote {
+    margin: 20px 0;
+    padding: 20px;
+    background: rgba(212, 175, 55, 0.1);
+    border-left: 4px solid #d4af37;
+    font-style: italic;
+    border-radius: 10px;
+}
+
+/* ===== HR ===== */
+hr {
+    border: none;
+    height: 1px;
+    background: linear-gradient(to right, transparent, #d4af37, transparent);
+    margin: 40px 0;
+}
+
+/* ===== CONTACT SECTION SPECIAL STYLE ===== */
+section:last-of-type {
+    background: linear-gradient(135deg, #1e293b, #0f172a);
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+/* ===== LINKS & Buttons ===== */
+a, button {
+    color: #facc15;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+button {
+    background: rgba(212,175,55,0.1);
+    border: 1px solid #d4af37;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #d4af37;
+    color: #111827;
+}
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 768px) {
+    body {
+        padding: 20px;
+    }
+
+    header h1 {
+        font-size: 1.8rem;
+    }
+
+    section {
+        padding: 25px;
+    }
+}
+
+/* LIGHT MODE */
+body.light-mode {
+    background: linear-gradient(135deg, #f3f4f6, #e5e7eb);
+    color: #111827;
+}
+
+body.light-mode section {
+    background: rgba(255,255,255,0.85);
+    color: #111827;
+}
+
+body.light-mode header {
+    background: rgba(255,255,255,0.85);
+    color: #111827;
+}
+
+body.light-mode blockquote {
+    background: rgba(212, 175, 55, 0.2);
+    color: #111827;
+}
+</style>
+</head>
+<body>
+
+<!-- BACKGROUND IMAGE -->
+<img src="law.jpg" alt="Background Image" class="bg">
+
+
+
+<!-- HEADER -->
+<header>
+    <h1>Eziefula & Uwakwe Associates</h1>
+    <p><strong>Solicitors & Advocates</strong> of the Supreme Court of Nigeria</p>
+    <p>Committed to justice, professionalism, and excellence in legal services</p>
+</header>
+
+<!-- ABOUT -->
+<section>
+    <h2>About Our Firm</h2>
+    <p><strong>Eziefula & Uwakwe Associates</strong> is a full-service Nigerian law firm, known for integrity and effective legal solutions. Our lawyers are qualified practitioners, called to the Nigerian Bar.</p>
+    <p>We provide comprehensive legal advice and representation while maintaining the highest ethical standards.</p>
+</section>
+
+<!-- PRACTICE AREAS -->
+<section>
+    <h2>Our Practice Areas</h2>
+    <ul>
+        <li><strong>Corporate & Commercial Law:</strong> Company registration, contracts, regulatory compliance</li>
+        <li><strong>Litigation & Dispute Resolution:</strong> Civil litigation, appeals, and arbitration</li>
+        <li><strong>Criminal Law:</strong> Criminal defense, bail applications, legal representation</li>
+        <li><strong>Banking & Finance:</strong> Loans, securities, and financial documentation</li>
+        <li><strong>Family Law:</strong> Divorce, child custody, adoption, and maintenance</li>
+        <li><strong>Property & Real Estate Law:</strong> Land transactions, C of O, leasing, and conveyancing</li>
+    </ul>
+</section>
+
+<!-- WHY CHOOSE US -->
+<section>
+    <h2>Why Choose Us?</h2>
+    <ul>
+        <li>Qualified Nigerian lawyers with deep experience</li>
+        <li>Comprehensive knowledge of Nigerian laws and courts</li>
+        <li>Client-focused, transparent approach</li>
+        <li>Confidential handling of all matters</li>
+        <li>Timely and effective legal solutions</li>
+    </ul>
+</section>
+
+<!-- LEGAL PROCESS -->
+<section>
+    <h2>Our Legal Process</h2>
+    <ol>
+        <li>Initial Consultation</li>
+        <li>Legal Assessment</li>
+        <li>Strategic Planning</li>
+        <li>Representation & Documentation</li>
+        <li>Resolution & Follow-up</li>
+    </ol>
+</section>
+
+<!-- LEGAL TEAM -->
+<section>
+    <h2>Our Legal Team</h2>
+    <p>Our team comprises experienced solicitors and advocates committed to delivering excellent legal services across Nigeria.</p>
+</section>
+
+<!-- TESTIMONIALS -->
+<section>
+    <h2>Client Testimonials</h2>
+    <blockquote>"Professional and reliable legal practitioners. They handled our matter excellently."</blockquote>
+    <blockquote>"A dependable law firm with strong attention to detail and client needs."</blockquote>
+</section>
+
+<!-- FAQ -->
+<section>
+    <h2>Frequently Asked Questions</h2>
+    <h4>Do you offer legal consultations?</h4>
+    <p>Yes, we provide both physical and virtual consultations.</p>
+    <h4>Are your services confidential?</h4>
+    <p>Yes, client confidentiality is strictly observed in accordance with professional rules.</p>
+    <h4>Do you handle cases outside Lagos?</h4>
+    <p>Yes, our legal services cover all states in Nigeria.</p>
+</section>
+
+<!-- CONTACT -->
+<section>
+    <h2>Contact Us</h2>
+    <p><strong>Phone:</strong> <p>Main line: <a href="tel:+2348037829232">+2348037829232</a></p> Secondary line: <a href="tel:+2349021677808">+2349021677808</a></p></p>
+    <p><strong>Office Address:</strong> 56 Azikiwe Road, Aba, Abia State</p>
+    <button onclick="window.location='mailto:info@eziefulalaw.com'">Email Us</button>
+</section>
+
+
+
+</body>
+</html>
